@@ -7,13 +7,10 @@ function getElementWidth(content, padding, border) {
     
     const totalWidth = contentWidth + paddingWidth + borderWidth;
     
-  
+
     return totalWidth;
 }
 
-
-console.log(getElementWidth("100px", "10px", "5px")); 
-console.log(getElementWidth("200px", "20px", "10px")); 
-console.log(getElementWidth("150px", "15px", "7px")); 
-console.log(getElementWidth("250px", "25px", "12px")); 
-console.log(getElementWidth("300px", "30px", "15px")); 
+console.log(getElementWidth('50px', '8px', '4px')); // 74
+console.log(getElementWidth('60px', '12px', '8.5px')); // 101
+console.log(getElementWidth('200px', '0px', '0px')); // 200

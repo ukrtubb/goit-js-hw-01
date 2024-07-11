@@ -8,8 +8,6 @@ function makeTransaction(quantity, pricePerDroid) {
 }
 
 
-console.log(makeTransaction(2, 100));                                           
-console.log(makeTransaction(3, 150)); 
-console.log(makeTransaction(1, 200)); 
-console.log(makeTransaction(4, 50));  
-console.log(makeTransaction(0, 300));   
+console.log(makeTransaction(5, 3000));//"You ordered 5 droids worth 15000 credits!"                                      
+console.log(makeTransaction(3, 1000));//"You ordered 3 droids worth 3000 credits!" 
+console.log(makeTransaction(10, 500));//"You ordered 10 droids worth 5000 credits!" 
